@@ -123,10 +123,7 @@ class MnistAutoencoder (nn.Module):
         decoded = self.decoder(decoded) 
         return decoded
         
-#########################################
-#            Trainer Class              #
-#########################################
-
+        
 #########################################
 #            Trainer Class              #
 #########################################
