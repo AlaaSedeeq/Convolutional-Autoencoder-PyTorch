@@ -104,7 +104,7 @@ class Swish(nn.Module):
         return (input * torch.sigmoid(input))
     
     def __repr__(self):
-        return self.__class__.__name__ + 'Swish'
+        return self.__class__.__name__ + ' Activation'
 
     
 #########################
