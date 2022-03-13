@@ -6,7 +6,7 @@ import torch.nn as nn
 from torch.autograd import Variable
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
-from utils import praper_data, decode_label, show_examples, Swish, weight_init, compare_results
+from utils import prepare_data, decode_label, show_examples, Swish, weight_init, compare_results
 
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
